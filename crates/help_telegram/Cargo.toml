@@ -1,13 +1,13 @@
 [package]
-name = "pembantu_telegram"
+name = "help_telegram"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [[bin]]
-edition = "2021"
-name = "pembantu_telegram"
+edition = "2024"
+name = "help_telegram"
 path = "src/main.rs"
 
 [dependencies]
@@ -17,5 +17,5 @@ pretty_env_logger = "0.4"
 tokio = { version =  "1.8", features = ["rt-multi-thread", "macros"] }
 dotenv = "0.15.0"
 actix-rt = "2.9.0"
-pembantu_core = { path = "../pembantu_core" }
+help_core = { path = "../help_core" }
 serde_json = "1.0.112"
